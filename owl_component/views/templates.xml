@@ -1,28 +1,36 @@
 <odoo>
     <data>
-        <template id="first">
-            <!--            <html>-->
-            <!--                <head>-->
-            <!--                    <t t-call-assets="owl_component.assets"/>-->
-            <!--                    <t t-call-assets="web.assets_frontend"/>-->
-            <!--                </head>-->
-            <!--                <body>-->
-            <div id="app"></div>
-            <!--                </body>-->
-            <!--            </html>-->
-        </template>
-
-        <template id="second">
+        <template id="example_page">
             <t t-call="website.layout">
                 <div>
-                    <h1>Second page</h1>
-                    <t t-call="owl_component.first"/>
+                    <h1>Example page to test component</h1>
+                    <t t-call="owl_component.counter"/>
                 </div>
             </t>
         </template>
+        <!--        <template id="first">-->
+        <!--            &lt;!&ndash;            <html>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                <head>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                    <t t-call-assets="owl_component.assets"/>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                    <t t-call-assets="web.assets_frontend"/>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                </head>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                <body>&ndash;&gt;-->
+        <!--            <div id="app"></div>-->
+        <!--            &lt;!&ndash;                </body>&ndash;&gt;-->
+        <!--            &lt;!&ndash;            </html>&ndash;&gt;-->
+        <!--        </template>-->
 
-        <template id="third">
-            <t t-call="owl_component.second"/>
-        </template>
+        <!--        <template id="second">-->
+        <!--            <t t-call="website.layout">-->
+        <!--                <div>-->
+        <!--                    <h1>Second page</h1>-->
+        <!--                    <t t-call="owl_component.first"/>-->
+        <!--                </div>-->
+        <!--            </t>-->
+        <!--        </template>-->
+
+        <!--        <template id="third">-->
+        <!--            <t t-call="owl_component.second"/>-->
+        <!--        </template>-->
     </data>
 </odoo>
